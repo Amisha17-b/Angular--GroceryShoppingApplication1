@@ -1,0 +1,43 @@
+.main
+{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color:#333; /* Dark grey background color */ ;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.main > .selected {
+    background: maroon;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    font-weight: bold;
+    color: white; /* Highlighted link color */
+}
+/* .main img {
+    height: 3em;
+    width: 200px;
+} */
+.main div
+{
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 18px;
+    transition: color 0.2s;
+    color: #999; /* Grey text color */
+}
+div:hover {
+  color: whitesmoke; /* Lighter grey color on hover */
+}
+.sign-up{
+    color:blue;
+    cursor: pointer;
+}
+img {
+  max-width: 200%;
+  max-height: 200%;
+}

@@ -1,0 +1,62 @@
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0px;
+}
+table tr td{
+        padding: 10px
+}
+.add-grossary-tab {
+    /* width: 40%;
+    margin: 0 auto;
+    box-shadow: rgb(109 109 125 / 28%) 0px 4px 7px 12px;
+    padding: 20px; */
+    background-color: #f2f2f2; /* Light grey background color */
+    border: 1px solid #ccc; /* Border to create a card-like effect */
+    border-radius: 5px;
+    padding: 20px;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+.add-grossary-tab h1 {
+  text-align: center;
+  color: #555; /* Dark grey text color */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.add-grossary-tab table {
+    width: 100%;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+}
+.add-grossary-tab table td {
+  padding: 8px;
+  font-size: 16px;
+}
+.add-grossary-tab input[type="text"],
+.add-grossary-tab select,
+.add-grossary-tab input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333; /* Dark grey text color */
+}
+.add-grossary-tab button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #777; /* Grey button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.add-grossary-tab button:hover {
+  background-color: #555; /* Darker grey button background color on hover */
+}

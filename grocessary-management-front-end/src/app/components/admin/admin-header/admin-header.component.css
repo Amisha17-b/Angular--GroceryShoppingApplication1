@@ -1,0 +1,64 @@
+.main
+{
+    background-color: #333; /* Background color for the navigation menu */
+    color: #fff; /* Text color */
+    display: flex;
+    justify-content: space-between; /* Align items to the right */
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+.main > .selected {
+    background: maroon;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 10px 0 10px;
+}
+.user-name-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.main div
+{
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: color 0.3s;
+
+}
+.main img {
+  width: 40px; /* Adjust the width as needed */
+  height: auto;
+}
+.user-name-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+.user-name-item mat-icon {
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+/* Mat menu styles */
+.mat-menu-panel {
+  background-color: #333; /* Background color for the dropdown menu */
+  color: #fff; /* Text color */
+  border: 1px solid #af3131; /* Custom border color */
+}
+
+/* Mat menu item styles */
+.mat-menu-item {
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+/* Mat menu item hover styles */
+.mat-menu-item:hover {
+  background-color: #af3131; /* Custom background color on hover */
+}
